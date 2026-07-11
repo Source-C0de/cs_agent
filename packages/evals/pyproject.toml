@@ -1,0 +1,11 @@
+[project]
+name = "green-lab-evals"
+version = "0.1.0"
+description = "Golden dataset + RAGAS-style runner for the Green Lab agent."
+requires-python = ">=3.11"
+dependencies = [
+    "httpx>=0.27.2",
+]
+
+[tool.uv]
+package = false

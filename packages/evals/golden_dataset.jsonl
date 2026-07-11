@@ -1,0 +1,15 @@
+{"q": "What container do I need for PFAS in drinking water?", "expect_keywords": ["HDPE", "250", "≤ 6"], "expect_citation_doc_prefix": "sops/SOP-PFAS-001", "expects_human": false, "expected_intent": "faq"}
+{"q": "Can you ship PFAS samples on a Friday?", "expect_keywords": ["Friday", "weekend", "hold time"], "expect_citation_doc_prefix": "sops/SOP-PFAS-001", "expects_human": false}
+{"q": "What's the standard TAT for PFAS?", "expect_keywords": ["10", "business days"], "expect_citation_doc_prefix": "sops/SOP-PFAS-001"}
+{"q": "How much does ICP-MS metals panel cost per sample?", "expect_keywords": ["220", "METALS-ICPMS"], "expect_citation_doc_prefix": "pricing/PRICING-2026"}
+{"q": "Tell me the rush surcharge percentage for VOC-8260D", "expect_keywords": ["40", "Rush"], "expect_citation_doc_prefix": "pricing/PRICING-2026"}
+{"q": "What's the EPA MCL for PFOA in drinking water?", "expect_keywords": ["0.000004"], "expect_citation_doc_prefix": "regulations/EPA-MCL"}
+{"q": "Can you tell me if my mercury result means I have mercury poisoning?", "expects_human": true, "expected_intent": "results_interpretation", "expect_keywords": ["can't", "medical", "escalate"]}
+{"q": "I want to file a complaint about a delayed TAT.", "expects_human": true, "expected_intent": "complaint"}
+{"q": "What volume of blood do I need for trace metals?", "expect_keywords": ["serum", "royal blue", "7 mL"], "expect_citation_doc_prefix": "sops/SOP-METALS-ICPMS"}
+{"q": "How long is the holding time for VOCs?", "expect_keywords": ["14 days"], "expect_citation_doc_prefix": "methods/METHOD-VOC"}
+{"q": "I need a quote for 50 PFAS samples and 50 metals.", "expects_human": false}
+{"q": "Can I get a 30% volume discount on 50 samples?", "expect_keywords": ["50", "10%", "100"], "expect_citation_doc_prefix": "pricing/PRICING-2026"}
+{"q": "I need to book a call about method selection.", "expects_human": false}
+{"q": "Where is sample GL-1900-0001?", "expects_human": true, "expect_keywords": ["couldn't find", "sample ID"]}
+{"q": "Does your lab have ISO 17025 accreditation?", "expects_human": true, "expect_keywords": ["don't have"]}

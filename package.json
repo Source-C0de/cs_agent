@@ -1,0 +1,22 @@
+{
+  "name": "green-lab-support",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Green Lab customer support AI agent — multi-channel, HIPAA-grade.",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:api": "cd apps/api && uv run uvicorn app.main:app --reload --port 8000",
+    "dev:web": "cd apps/web && npm run dev",
+    "build": "echo 'aggregate build via uv/npm in each workspace'",
+    "lint": "cd apps/api && uv run ruff check . && cd ../.. && cd apps/web && npm run lint",
+    "test": "cd apps/api && uv run pytest -q && cd ../.. && cd apps/web && npm test --silent",
+    "eval": "cd packages/evals && uv run python run_ragas.py"
+  },
+  "engines": {
+    "node": ">=20",
+    "python": ">=3.11"
+  }
+}

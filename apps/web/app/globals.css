@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 248 250 252;
+  --foreground: 15 23 42;
+}
+
+body {
+  background: rgb(var(--background));
+  color: rgb(var(--foreground));
+  font-family: ui-sans-serif, system-ui, sans-serif;
+}
+
+.citation {
+  @apply inline-block px-1.5 py-0.5 rounded bg-brand-light/30 text-brand-dark text-xs mr-1;
+}

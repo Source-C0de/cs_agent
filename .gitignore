@@ -1,0 +1,36 @@
+# Env / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# Node
+node_modules/
+.next/
+out/
+dist/
+.turbo/
+
+# Editors
+.vscode/
+.idea/
+.DS_Store
+
+# Build artifacts
+*.egg
+*.whl
+
+# Local data
+apps/api/corpus/private/
+apps/api/.pgdata/
